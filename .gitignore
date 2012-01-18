@@ -1,0 +1,3 @@
+check-line-length
+*.o
+*.orig

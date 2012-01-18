@@ -51,6 +51,9 @@ int main (int argc, char* argv[])
   // These are the options that will be displayed in help
   po::options_description visible_options (
     "Usage: check-line-length [OPTION]... [FILE]...\n"
+    "\n"
+    "Check FILE(s), or standard input, for line lengths exceeding the limit\n"
+    "\n"
     "Allowed options");
   visible_options.add_options()
   ("help", "produce help message")
